@@ -1,0 +1,49 @@
+import logo from '../logo.png';
+
+import '../App.css';
+
+function App() {
+  return (
+    <header>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary pl-5 pr-5">
+  <div className="container-fluid">
+    <a className="navbar-brand logo col-6" href="#"><img src={logo} alt='Logo'/></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav listItems">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">about</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">book</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link " >Gallery</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link " >contact</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link " >refund policy</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link " >location</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header> 
+
+
+
+
+  );
+}
+
+export default App;

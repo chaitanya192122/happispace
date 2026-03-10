@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import SlideShow from './SlideShow';
-import Location from './Location';
-import Footer from './Footer';
-
-
+import App from './Sections/App';
+import SlideShow from './Sections/SlideShow';
+import Celebrate from './Sections/Celebrate';
+import Location from './Sections/Location';
+import Footer from './Sections/Footer';
 import reportWebVitals from './reportWebVitals';
+import Services from './Sections/Services';
+import Branches from './Sections/Branches';
+import Questions from './Sections/Questions';
+import Gallery from './Sections/Gallery';
+import Packages from './Sections/Packages';
 
 
 
@@ -18,6 +22,12 @@ root.render(
   <React.StrictMode>
     <App/>
     <SlideShow/>
+    <Celebrate/>
+    <Services/>
+    <Questions/>
+    <Gallery/>
+    <Packages/>
+    <Branches/>
     <Location/>
     <Footer/>
     

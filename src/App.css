@@ -6,18 +6,92 @@
     transform: rotate(360deg);
   }
 }
+
 *{
-  padding: 0px !important;
-  margin: 0px !important;
-  box-sizing: border-box !important;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-.happi-nav{
-  justify-content: center;
-  margin-right:50px
+
+/* header section*/
+.logo img{
+  width: 10% !important;
 }
-.navbar-brand img{
-  width: 100px;
+
+.listItems {
+    font-size: 2ch;
+    font-weight: bolder;
+    text-transform: capitalize;
+    }
+
+
+/* celebrate section */
+.celebrate{
+  text-align: center;
 }
+
+
+/* Our Services section */
+
+
+
+
+/* Questions section */
+
+
+
+/* Gallery section */
+.gallery .card img{
+  border-radius: 5% !important;
+
+}
+.gallery .card {
+  border: none;
+}
+.gallery h1{
+  text-align: center;
+}
+
+/* Packages section */
+
+
+
+/* Our Branche*/
+
+.branches{
+  background-color: rgb(18, 54, 54);
+  color: #fff;
+  text-align: center;
+}
+.branches i{
+  font-size: 3rch;
+}
+.branches .lkv .lkvLoc{
+  background-color: #fff;
+  border-radius: 10%;
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+
+}
+.branches h6{
+  font-size: 3ch;
+
+}
+.branches h6 a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+/* our location section*/
+.location{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+/* footer section */
 footer img{
   width: 200px;
 }
@@ -41,3 +115,8 @@ footer ul li{
   list-style: none;
   margin: 5px !important;
 }
+
+
+
+
+
